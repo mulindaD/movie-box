@@ -10,10 +10,11 @@ function Home({ searchTerm }) {
     console.log(movies)
     
     return (
-      <div className="home">
-        <h2>Welcome to Movie Box</h2>
-        {error && <div>{error}</div>}
-        {isPending && <div>Loading...</div>}
+      <div className="container mx-auto px-4 py-8">
+        <h2 className='text-3xl font-bold mb-4'>Discover Movies</h2>
+        <h3 className='text-xl text-gray-600 mb-6'>Some of the popular movies today</h3>
+        {error && <div className='text-red-500 mb-4'>{error}</div>}
+        {isPending && <div className='text-gray-500 mb-4'>Loading...</div>}
         {movies && <MovieList movies={movies.results} />}
       </div>
     );
