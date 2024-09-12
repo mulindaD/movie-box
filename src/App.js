@@ -23,7 +23,7 @@ function App() {
       <SearchBar onSearch={handleSearch} />
       <div className="content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home searchTerm={searchTerm}/>} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/movie/:id" element={<MovieDetails />} />
         </Routes>
