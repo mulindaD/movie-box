@@ -19,9 +19,7 @@ function App() {
   return (
    <Router>
     <div className="app bg-rose-light px-12">
-      <div 
-        className='flex py-4 px-12 items-center justify-between sticky bg-rose-light top-0 z-10'
-      >
+      <div className='flex py-4 px-12 items-center justify-between sticky bg-rose-light top-0 z-10'>
         <Header />
         <SearchBar onSearch={handleSearch} />
       </div>

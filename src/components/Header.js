@@ -13,7 +13,7 @@ function Header() {
         <span className='font-bold text-xl text-gray-800'>Movie Box</span>
       </div>
       <nav>
-        <ul className='flex items-start space-x-1'>
+        <ul className='flex items-start space-x-2'>
           <li className='text-gray-600 hover:text-gray-800'>
             <Link to="/">Home</Link>
           </li>

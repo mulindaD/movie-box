@@ -10,13 +10,14 @@ function SearchBar({ onSearch }) {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className='flex items-center space-x-1'>
+      <form onSubmit={handleSubmit} 
+        className='flex items-center space-x-1 w-full pl-4 pr-4 py-2 border border-gray-300 bg-white rounded-full focus:outline-none focus:border-gray-500'
+      >
         <input
           type="text"
           value={term}
           onChange={(e) => setTerm(e.target.value)}
           placeholder="Search Movie..."
-          className='className="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-full focus:outline-none focus:border-gray-500"'
         />
         <button type="submit">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-500 hover:text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
