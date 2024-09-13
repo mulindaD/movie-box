@@ -49,7 +49,8 @@ function MovieDetails() {
                 <p className='text-gray-600 mb-4'>Runtime: {movie.runtime} Minutes</p>
                 <p className='text-gray-800 mb-6'>{movie.overview}</p>
                 
-                <div className="flex flex-col sm:flex-row gap-4">
+                {/* To be implemented when we've done the wishlist page */}
+                {/* <div className="flex flex-col sm:flex-row gap-4">
                     <button className='flex items-center justify-center px-4 py-2 bg-white border border-gray-300 rounded-md hover:bg-gray-50 transition duration-150 ease-in-out'>
                         <span className='mr-2'>Mark as Watched</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -62,7 +63,7 @@ function MovieDetails() {
                             <path d="M4.1665 4.16667C4.1665 3.24619 4.9127 2.5 5.83317 2.5H14.1665C15.087 2.5 15.8332 3.24619 15.8332 4.16667V17.5L9.99984 14.5833L4.1665 17.5V4.16667Z" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
-                </div>
+                </div> */}
            </div>
             
           </div>

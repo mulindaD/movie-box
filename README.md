@@ -38,7 +38,7 @@ Movie Box is a simplified single-page React application that allows users to exp
 3. Set up environment variables:
    Create a `.env` file in the root directory and add the following:
    ```
-   REACT_APP_API_KEY=4a4c53c2b44a6c9f597dee90e67f9d99
+   REACT_APP_API_KEY=LAKJSDAJKDLJALSJDLAKSJDLAJS
    REACT_APP_API_BASE_URL=https://api.themoviedb.org/3
    ```
 
