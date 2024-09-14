@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function MovieList({ movies }) {
   // Base URL for TMDB images
-  const imageBaseUrl = "https://image.tmdb.org/t/p/w500";
+  const imageBaseUrl = process.env.REACT_APP_IMAGE_BASE_URL;
 
   return (
     <div className="movie-list grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
