@@ -13,7 +13,9 @@ Movie Box is a simplified single-page React application that allows users to exp
 ## Technology Stack
 
 - Frontend: React
+- Tailwind CSS for Styling
 - API: The Movie Database (TMDB) API
+- Render for Front End and Back-end deployment
 
 ## Getting Started
 
@@ -38,7 +40,7 @@ Movie Box is a simplified single-page React application that allows users to exp
 3. Set up environment variables:
    Create a `.env` file in the root directory and add the following:
    ```
-   REACT_APP_API_KEY=LAKJSDAJKDLJALSJDLAKSJDLAJS
+   REACT_APP_API_KEY=<YOUR_API_KEY>
    REACT_APP_API_BASE_URL=https://api.themoviedb.org/3
    ```
 
@@ -57,16 +59,18 @@ movie-box/
 ├── src/
 │   ├── components/
 │   │   ├── Header.js
+│   │   ├── Home.js
 │   │   ├── MovieList.js
 │   │   ├── MovieCard.js
 │   │   ├── SearchBar.js
 │   │   ├── MovieDetails.js
-│   │   └── Review.js
+│   │   └── Reviews.js
 │   ├── App.js
 │   ├── index.js
 │   └── styles.css
 ├── .env
 ├── package.json
+├── tailwind.config.js
 └── README.md
 ```
 
@@ -96,9 +100,6 @@ Please note that you should always keep your API key secret and never commit it 
 - `npm run build`: Builds the app for production
 - `npm test`: Runs the test suite
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
