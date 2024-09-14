@@ -1,13 +1,13 @@
 # Movie Box
 
-Movie Box is a simplified single-page React application that allows users to explore popular movies. Users can view a list of popular movies, search for specific titles, and view basic details about each movie.
+Movie Box is a simplified single-page React application that allows users to explore popular movies. Users can view a list of popular movies, search for specific titles, and view basic details about each movie. You can then leave reviews for popular shows that you've watched.
 
 ## Features
 
 - Display popular movies
 - Search functionality for movies
 - View basic movie details
-- Post and view reviews for each movie
+- Post and view reviews for any movie
 - Responsive single-page design
 
 ## Technology Stack
@@ -98,7 +98,6 @@ Please note that you should always keep your API key secret and never commit it 
 
 - `npm start`: Runs the app in development mode
 - `npm run build`: Builds the app for production
-- `npm test`: Runs the test suite
 
 
 ## License
